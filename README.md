@@ -1,4 +1,5 @@
 # Breast-cancer-prediction
+Ce projet est aussi disponible en français : README_FR.md
 This project applies machine learning techniques to classify breast tumors as malignant or benign using the Breast Cancer Wisconsin dataset, employing *Random Forest* classifiers and Hyperparameter Tuning
 with *GridSearchCV* for evaluation.
 # Technologies Used
