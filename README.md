@@ -1,2 +1,30 @@
 # Breast-cancer-prediction
-Ce projet utilise le jeu de données Breast Cancer Wisconsin pour construire un modèle prédictif de classification du cancer du sein (malin vs bénin). Il s'appuie sur un classificateur Random Forest et une recherche d'hyperparamètres via GridSearchCV
+Breast Cancer Prediction using Random Forest and Hyperparameter Tuning GridSearchCV
+This project applies machine learning techniques to classify breast tumors as **malignant** or **benign** using the **Breast Cancer Wisconsin** dataset. Both **Decision Tree** and **Random Forest** classifiers are used and evaluated.
+# Technologies Used
+Python 3
+Pandas
+Scikit-learn
+Matplotlib
+# Objective
+To build accurate classification models that can assist in early breast cancer detection through supervised learning methods.
+# Modeling Steps
+Load and preprocess data from sklearn.datasets.load_breast_cancer.
+Split data into training and test sets.
+Train a DecisionTreeClassifier and evaluate its accuracy.
+Train a RandomForestClassifier, optimize it using GridSearchCV, and compare results.
+# Random Forest Classifier
+n_estimators=200, min_samples_leaf=9, random_state=42
+**Test Accuracy:** 0.9708
+**Train Accuracy:** 0.9698
+# Hyperparameter Tuning
+GridSearchCV used with 5-fold cross-validation and 72 combinations.
+**Best Parameters:**  
+  {
+    'bootstrap': False,
+    'criterion': 'entropy',
+    'max_depth': 5,
+    'min_samples_leaf': 1,
+    'min_samples_split': 8
+  }
+
