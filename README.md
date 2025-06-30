@@ -1,6 +1,7 @@
 # Breast-cancer-prediction
 Breast Cancer Prediction using Random Forest and Hyperparameter Tuning GridSearchCV
-This project applies machine learning techniques to classify breast tumors as **malignant** or **benign** using the **Breast Cancer Wisconsin** dataset. Both **Decision Tree** and **Random Forest** classifiers are used and evaluated.
+This project applies machine learning techniques to classify breast tumors as malignant or benign using the Breast Cancer Wisconsin dataset. Using *Random Forest* classifiers and Hyperparameter Tuning
+with *GridSearchCV* for evaluation.
 # Technologies Used
 Python 3
 Pandas
